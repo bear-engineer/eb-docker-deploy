@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2af26894290e1e0ddac97eded33193ce678337f05b16e536f021c66be3fd01bf"
+            "sha256": "45a6dec9000ede6595c5ac7054516eb6a1feb380aa72d644a26ed0df5e2050fd"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -33,6 +33,14 @@
         }
     },
     "develop": {
+        "argparse": {
+            "hashes": [
+                "sha256:62b089a55be1d8949cd2bc7e0df0bddb9e028faefc8c32038cc84862aefdd6e4",
+                "sha256:c31647edb69fd3d465a847ea3157d37bed1f95f19760b11a47aa91c04b666314"
+            ],
+            "index": "pypi",
+            "version": "==1.4.0"
+        },
         "awsebcli": {
             "hashes": [
                 "sha256:4880fdffed20b199bb71b1784cf3aefe81859b173ef0291a4c1a6ef08b96bb0c"
