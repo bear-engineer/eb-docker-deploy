@@ -1,6 +1,5 @@
 from .base import *
 
-STATIC_URL = '/static/'
 WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
@@ -8,3 +7,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
+STATIC_URL = '/static/'

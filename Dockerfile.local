@@ -1,0 +1,5 @@
+FROM            eb-docker:base
+MAINTAINER      d.sehyeon@gmail.com
+
+COPY            .   /srv/project
+
